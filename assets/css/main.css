@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f4f4;
+		background: #faf2f4;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -2055,7 +2055,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #644b6b;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2077,7 +2077,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #946f94;
 		}
 
 		input[type="button"].alt,
@@ -2085,7 +2085,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #2B252C;
+			background: #514c52;
 		}
 
 			input[type="button"].alt:hover,
@@ -2163,7 +2163,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: #faf2f4;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
@@ -2281,6 +2281,27 @@ input, select, textarea {
 
 /* Nav */
 
+#myVideo {
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	border-radius: 3%;
+}
+
+#vidcont {
+	display: flex;
+	justify-content: center;
+}
+
+#but {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#but1 {
+	scale: 150%;
+	width: 40%;
+}
+
+
 	#nav {
 		position: fixed;
 		top: 0;
@@ -2290,7 +2311,7 @@ input, select, textarea {
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
-		background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.0));
+		background-image: linear-gradient(rgba(17, 16, 16, 0.7),rgba(0,0,0,.0));
 	}
 
 		#nav > ul {
@@ -3136,5 +3157,5 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-
+			
 	}
